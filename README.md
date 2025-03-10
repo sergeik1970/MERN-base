@@ -26,3 +26,9 @@ ls -l node_modules
 
 code .env
 cmd + S
+
+создать gitignore
+
+создать server.js
+
+node server.js
