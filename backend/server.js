@@ -13,7 +13,7 @@ app.use(cors({
 }));
 
 // connect to mongodb
-mongoose.connect(process.env.MONGODB_URI). then(() => {
+mongoose.connect(process.env.MONGODB_URI).then(() => {
     const PORT = process.env.PORT;
     app.listen(PORT , () => {
         console.log(`Server started on port ${PORT}`);

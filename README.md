@@ -32,3 +32,22 @@ cmd + S
 создать server.js
 
 node server.js
+
+создать frontend с помощью vite
+
+npm create vite frontend
+
+выбрать react
+
+выбрать js
+
+cd backend
+
+npm i
+
+npm run dev
+
+удалить все из index.css
+
+удалить app.css
+
