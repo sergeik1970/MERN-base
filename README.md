@@ -51,3 +51,22 @@ npm run dev
 
 удалить app.css
 
+потом чтобы все вместе совместить npm init -y
+
+внутри package.json в scripts "server": "cd backend && nodemon server.js"
+nodemon чтобы был автоперезапуск
+"client": "cd frontend && npm run dev"
+
+чтобы запустить backend ввести в корневой папке npm run backend
+чтобы frontend - npm run client
+
+создать папку styles в src и добавить туда index.css
+поменять путь к файлу в main.jsx
+import './styles/index.css'
+
+скопировать с https://cdn.jsdelivr.net/npm/water.css@2/out/water.css в water.css в src/styles
+
+написать @import url("water.css"); в index.css
+
+можно написать в index.css что надо изменить в water.css
+

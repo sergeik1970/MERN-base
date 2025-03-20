@@ -12,6 +12,7 @@ const App = () => {
   return ( 
     <div className="app">
       <h1>{message}</h1>
+      {/* Добавить контента и стили */}
     </div>
    );
 }

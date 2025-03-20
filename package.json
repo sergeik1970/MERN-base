@@ -1,0 +1,13 @@
+{
+  "name": "mern-base",
+  "version": "1.0.0",
+  "description": "Базовый проект на стеке MERN",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && nodemon server.js",
+    "client": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
