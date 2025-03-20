@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "server": "cd backend && nodemon server.js",
-    "client": "cd frontend && npm run dev"
+    "client": "cd frontend && npm run dev",
+    "build-client": "cd frontend && npm install && npm run build",
+    "build-server": "cd backend && npm install",
+    "start-server": "cd backend && node server.js"
   },
   "keywords": [],
   "author": "",

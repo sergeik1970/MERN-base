@@ -70,3 +70,17 @@ import './styles/index.css'
 
 можно написать в index.css что надо изменить в water.css
 
+В package.json
+"scripts": {
+    <!-- запуск для разработки -->
+    "server": "cd backend && nodemon server.js",
+    "client": "cd frontend && npm run dev",
+    <!-- сборка frontend -->
+    "build-client": "cd frontend && npm install && npm run build",
+    <!-- backend -->
+    "build-server": "cd backend && npm install",
+    "start-server": "cd backend && node server.js"
+  }
+
+есди написать build-client то появятся 3 файла в dist
+
