@@ -82,5 +82,5 @@ import './styles/index.css'
     "start-server": "cd backend && node server.js"
   }
 
-есди написать build-client то появятся 3 файла в dist
+если написать build-client то появятся 3 файла в dist
 
