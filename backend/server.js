@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 // подключение dotenv, для использования переменных окружения из .env файла
-require('dotenv').config();
+require('dotenv').config();  
 // создание экземпляра приложения 
 const app = express();
 

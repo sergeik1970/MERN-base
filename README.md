@@ -121,7 +121,7 @@ Deploy Wen service
 new static site
 выбираем тот же проект из списка с github
 Build command npm run build-client
-Publish directory ./frontend/dist
+Publish directory ./frontend/dist или вместо frontend client
 Добавляем env vars из файла .env из frontend(1 в базовом случае)
 секретных файлов нет
 deploy Static Site
